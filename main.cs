@@ -13,7 +13,7 @@
                 if (!periodic && (x2 < 0 || y2 < 0 || x2 + N > MX || y2 + N > MY)) continue;
 
                 if (x2 < 0) x2 += MX;
-                else if (x2 >= MX) x2 -= MX;
+                else if (x2 >= MX) x2 -= MX;//yea
                 if (y2 < 0) y2 += MY;
                 else if (y2 >= MY) y2 -= MY;
 
