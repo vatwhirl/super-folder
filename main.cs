@@ -6,7 +6,7 @@
             int x1 = i1 % MX;
             int y1 = i1 / MX;
 
-            for (int d = 0; d < 4; d++)
+            for (int d = 0; d < 4; d++)//yes
             {
                 int x2 = x1 + dx[d];
                 int y2 = y1 + dy[d];
