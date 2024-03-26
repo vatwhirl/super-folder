@@ -24,7 +24,7 @@
                 {
                     int t2 = p[l];
                     int[] comp = compat[t2];
-
+//wok
                     comp[d]--;
                     if (comp[d] == 0) Ban(i2, t2);
                 }
